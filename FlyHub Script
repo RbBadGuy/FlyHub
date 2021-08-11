@@ -1,0 +1,321 @@
+--Made By Vishnu1903alt (Max)
+
+local MaxGren = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local UICorner_2 = Instance.new("UICorner")
+local TextButton = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local IsOn = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local UIAspectRatioConstraint_2 = Instance.new("UIAspectRatioConstraint")
+local UIAspectRatioConstraint_3 = Instance.new("UIAspectRatioConstraint")
+local TextButton_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local IsOn_2 = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local UIAspectRatioConstraint_4 = Instance.new("UIAspectRatioConstraint")
+local CLOSE = Instance.new("TextButton")
+local TextButton_3 = Instance.new("TextButton")
+local UIAspectRatioConstraint_5 = Instance.new("UIAspectRatioConstraint")
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint")
+local UICorner_7 = Instance.new("UICorner")
+
+--Properties:
+
+MaxGren.Name = "MaxGren"
+MaxGren.Parent = game.Workspace
+MaxGren.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = MaxGren
+Main.BackgroundColor3 = Color3.fromRGB(0, 145, 255)
+Main.Position = UDim2.new(0.299112797, 0, 0.352826506, 0)
+Main.Size = UDim2.new(0.375166893, 0, 0.237489611, 0)
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.fromRGB(160, 255, 52)
+TextLabel.Size = UDim2.new(1, 0, 0.254448384, 0)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "(Maxs) Fly Hack And No Clip"
+TextLabel.TextColor3 = Color3.fromRGB(0, 85, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner.Parent = TextLabel
+
+UIAspectRatioConstraint.Parent = TextLabel
+UIAspectRatioConstraint.AspectRatio = 9.065
+
+UICorner_2.Parent = Main
+
+TextButton.Parent = Main
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+TextButton.BorderSizePixel = 0
+TextButton.Position = UDim2.new(0.299131453, 0, 0.354838759, 0)
+TextButton.Size = UDim2.new(0.398576409, 0, 0.254448295, 0)
+TextButton.Font = Enum.Font.SourceSansBold
+TextButton.Text = "Fly:"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+TextButton.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_3.CornerRadius = UDim.new(0.0199999996, 0)
+UICorner_3.Parent = TextButton
+
+IsOn.Name = "IsOn"
+IsOn.Parent = TextButton
+IsOn.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+IsOn.BackgroundTransparency = 1.000
+IsOn.BorderSizePixel = 0
+IsOn.Position = UDim2.new(0.275129944, 0, -0.166666731, 0)
+IsOn.Size = UDim2.new(0.724869967, 0, 1.38888931, 0)
+IsOn.Font = Enum.Font.SourceSansItalic
+IsOn.Text = "On"
+IsOn.TextColor3 = Color3.fromRGB(25, 255, 0)
+IsOn.TextScaled = true
+IsOn.TextSize = 14.000
+IsOn.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0.0199999996, 0)
+UICorner_4.Parent = IsOn
+
+UIAspectRatioConstraint_2.Parent = TextButton
+UIAspectRatioConstraint_2.AspectRatio = 3.613
+
+UIAspectRatioConstraint_3.Parent = Main
+UIAspectRatioConstraint_3.AspectRatio = 2.306
+
+TextButton_2.Parent = Main
+TextButton_2.BackgroundColor3 = Color3.fromRGB(255, 170, 0)
+TextButton_2.BorderSizePixel = 0
+TextButton_2.Position = UDim2.new(0.217280924, 0, 0.658535242, 0)
+TextButton_2.Size = UDim2.new(0.562277496, 0, 0.246240273, 0)
+TextButton_2.Font = Enum.Font.SourceSansBold
+TextButton_2.Text = "NoClip:"
+TextButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_2.TextScaled = true
+TextButton_2.TextSize = 14.000
+TextButton_2.TextWrapped = true
+TextButton_2.TextXAlignment = Enum.TextXAlignment.Left
+
+UICorner_5.CornerRadius = UDim.new(0.0199999996, 0)
+UICorner_5.Parent = TextButton_2
+
+IsOn_2.Name = "IsOn"
+IsOn_2.Parent = TextButton_2
+IsOn_2.BackgroundColor3 = Color3.fromRGB(120, 120, 120)
+IsOn_2.BackgroundTransparency = 1.000
+IsOn_2.BorderSizePixel = 0
+IsOn_2.Position = UDim2.new(0.496648967, 0, -0.133332372, 0)
+IsOn_2.Size = UDim2.new(0.503351092, 0, 1.19999969, 0)
+IsOn_2.Font = Enum.Font.SourceSansItalic
+IsOn_2.Text = "Always"
+IsOn_2.TextColor3 = Color3.fromRGB(25, 255, 0)
+IsOn_2.TextScaled = true
+IsOn_2.TextSize = 14.000
+IsOn_2.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0.0199999996, 0)
+UICorner_6.Parent = IsOn_2
+
+UIAspectRatioConstraint_4.Parent = TextButton_2
+UIAspectRatioConstraint_4.AspectRatio = 5.267
+
+CLOSE.Name = "CLOSE"
+CLOSE.Parent = Main
+CLOSE.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+CLOSE.Position = UDim2.new(0.813557744, 0, 0.420987368, 0)
+CLOSE.Size = UDim2.new(0.185053378, 0, 0.238032371, 0)
+CLOSE.Font = Enum.Font.SourceSans
+CLOSE.Text = "X"
+CLOSE.TextColor3 = Color3.fromRGB(0, 0, 0)
+CLOSE.TextScaled = true
+CLOSE.TextSize = 14.000
+CLOSE.TextWrapped = true
+
+TextButton_3.Parent = MaxGren
+TextButton_3.BackgroundColor3 = Color3.fromRGB(0, 187, 255)
+TextButton_3.Position = UDim2.new(0.87449944, 0, 0.403508782, 0)
+TextButton_3.Size = UDim2.new(0.125500664, 0, 0.0934876874, 0)
+TextButton_3.Font = Enum.Font.SourceSans
+TextButton_3.Text = "Open"
+TextButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton_3.TextScaled = true
+TextButton_3.TextSize = 14.000
+TextButton_3.TextWrapped = true
+
+UIAspectRatioConstraint_5.Parent = TextButton_3
+UIAspectRatioConstraint_5.AspectRatio = 1.960
+
+UITextSizeConstraint.Parent = TextButton_3
+UITextSizeConstraint.MaxTextSize = 14
+
+UICorner_7.Parent = TextButton_3
+
+-- Scripts:
+
+local function NPPNK_fake_script() -- TextButton.Fly 
+	local script = Instance.new('LocalScript', TextButton)
+
+	--Please put me in StarterCharacterScripts
+	local Player = game.Players.LocalPlayer
+	local Character = Player.Character or Player.CharacterAdded:Wait()
+	local Humanoid = Character:WaitForChild("Humanoid")
+	local HumaoidRP = Character:WaitForChild("HumanoidRootPart")
+	local UIS = game:GetService("UserInputService")
+	local Mouse = Player:GetMouse()
+	 
+	 
+	local TapTime = .2
+	local Tapped = false
+	local Toggle = false
+	local FlyForce = 150
+	 
+	UIS.InputBegan:Connect(function(Input)
+	    if Input.KeyCode == Enum.KeyCode.Space then
+	        if not Tapped then
+	            Tapped = true
+	            wait(TapTime)
+	            Tapped = false
+	        else
+	            if Toggle == false then
+	                local Jump = Instance.new("BodyVelocity",HumaoidRP)
+	                Jump.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+	                Jump.Velocity = Vector3.new(0,50,0)
+	                game.Debris:AddItem(Jump,.5)
+	                wait(.5)
+	                HumaoidRP.Anchored = true
+	                Toggle = true
+	            elseif Toggle == true then
+	                Toggle = false
+	                HumaoidRP.Anchored = false
+	                local Children = HumaoidRP:GetChildren()
+	                for i, child in pairs(Children) do
+	                    if child:IsA("BodyVelocity") then
+	                        child:Destroy()
+	                    end
+						if child:IsA("BodyGyro") then
+	                        child:Destroy()
+	                    end
+	                end
+	            end
+	        end
+	    end
+	end)
+	UIS.InputBegan:Connect(function(Input)
+	    if Input.KeyCode == Enum.KeyCode.W then
+	        if Toggle == false then return end
+	        HumaoidRP.Anchored = false
+	        if HumaoidRP:FindFirstChildOfClass("BodyVelocity") then
+	            HumaoidRP:FindFirstChildOfClass("BodyVelocity"):Destroy()
+	        end
+	        local Forward = Instance.new("BodyVelocity",HumaoidRP)
+	        Forward.Name = "ForwardMovement"
+	        Forward.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+	        local Gyro = Instance.new("BodyGyro",HumaoidRP)
+	        Gyro.MaxTorque = Vector3.new(math.huge,math.huge,math.huge)
+	        Gyro.D = 500
+	        Gyro.P = 10000
+	        while Toggle == true do
+	            Forward.Velocity =  workspace.CurrentCamera.CFrame.lookVector * FlyForce
+	            Gyro.CFrame = workspace.CurrentCamera.CFrame
+	            wait()
+	        end
+	    end
+	    if Input.KeyCode == Enum.KeyCode.S then
+	        if Toggle == false then return end
+	        HumaoidRP.Anchored = false
+	        if HumaoidRP:FindFirstChildOfClass("BodyVelocity") then
+	            HumaoidRP:FindFirstChildOfClass("BodyVelocity"):Destroy()
+	        end
+	        local Back = Instance.new("BodyVelocity",HumaoidRP)
+	        Back.Name = "BackMovement"
+	        Back.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+	        local Gyro = Instance.new("BodyGyro",HumaoidRP)
+	        Gyro.MaxTorque = Vector3.new(math.huge,math.huge,math.huge)
+	        Gyro.D = 500
+	        Gyro.P = 10000
+	        while Toggle == true do
+	            Back.Velocity =  workspace.CurrentCamera.CFrame.lookVector * -FlyForce
+	            Gyro.CFrame = workspace.CurrentCamera.CFrame
+	            wait()
+	        end
+	    end
+	end)
+	
+	UIS.InputEnded:Connect(function(Input)
+	    if Input.KeyCode == Enum.KeyCode.W then
+	        if Toggle == false then return end
+	        if HumaoidRP:FindFirstChild("ForwardMovement") then
+	            HumaoidRP.ForwardMovement:Destroy()
+	            HumaoidRP.Anchored = true
+	            if HumaoidRP:FindFirstChildOfClass("BodyGyro") then
+	                HumaoidRP:FindFirstChildOfClass("BodyGyro"):Destroy()
+	            end
+	        end
+	    end
+	    if Input.KeyCode == Enum.KeyCode.S then
+	        if Toggle == false then return end
+	        if HumaoidRP:FindFirstChild("BackMovement") then
+	            HumaoidRP.BackMovement:Destroy()
+	            HumaoidRP.Anchored = true
+	            if HumaoidRP:FindFirstChildOfClass("BodyGyro") then
+	                HumaoidRP:FindFirstChildOfClass("BodyGyro"):Destroy()
+	            end
+	        end
+	    end
+	end)
+end
+coroutine.wrap(NPPNK_fake_script)()
+local function IWXGIYT_fake_script() -- TextButton_2.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_2)
+
+	noclip = false
+	game:GetService('RunService').Stepped:connect(function()
+		if noclip then
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		end
+	end)
+	plr = game.Players.LocalPlayer
+	mouse = plr:GetMouse()
+	mouse.KeyDown:connect(function(key)
+	
+		if key == "e" then
+			noclip = not noclip
+			game.Players.LocalPlayer.Character.Humanoid:ChangeState(11)
+		end
+	end)
+	print('Loaded')
+	print('Press "E" to noclip')
+end
+coroutine.wrap(IWXGIYT_fake_script)()
+local function LFHVU_fake_script() -- CLOSE.LocalScript 
+	local script = Instance.new('LocalScript', CLOSE)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+	
+	
+end
+coroutine.wrap(LFHVU_fake_script)()
+local function UUGDTNH_fake_script() -- TextButton_3.LocalScript 
+	local script = Instance.new('LocalScript', TextButton_3)
+
+	local frame = script.Parent.Parent.Main  -- change “Test” to the name of the frane
+	local open = false
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		if frame.Visible == false then
+			frame.Visible = true
+		end
+	end)
+	
+end
+coroutine.wrap(UUGDTNH_fake_script)()
